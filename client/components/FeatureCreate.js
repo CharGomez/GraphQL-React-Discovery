@@ -32,11 +32,13 @@ class FeatureCreate extends Component {
     }
 }
 
+// dataIdFromObject added to reactive
 const mutation = gql`
     mutation addFeatureToProject($content: String, $projectId: ID) {
         addFeatureToProject(content: $content, projectId: $projectId) {
             id 
             features {
+                id
                 content
             }
         }
