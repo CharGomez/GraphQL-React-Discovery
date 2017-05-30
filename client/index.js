@@ -16,7 +16,7 @@ const client = new ApolloClient({
   // dataIdFromObject, takes every single piece of data that is fetch on the Apollo Client
   // id = result identifies piece of data
   // mmm tells React when that piece of data (id) is updated, only works when all Id's are uniques
-  // always return a Id on a query, if NOT Apollo can do that
+  // always return an Id on a query, if NOT Apolo can't do that
   dataIdFromObject: o => o.id
 });
 
