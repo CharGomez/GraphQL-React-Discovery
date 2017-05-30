@@ -19,3 +19,7 @@
 - npm install
 - npm run dev
 - open http://localhost:1200 for React App, or http://localhost:1200/graphql for GraphQL test instance
+
+
+#Helpfull links
+- dataIdFromObject: http://dev.apollodata.com/react/cache-updates.html
